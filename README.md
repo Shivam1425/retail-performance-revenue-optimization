@@ -1,9 +1,9 @@
 # Retail Performance Diagnosis and Revenue Optimization
 
-Author: Shivam Kumar
-Role: Aspiring Data Analyst
-Tools: MySQL 8.0, SQL
-Project Type: SQL Portfolio Project
+**Author:** Shivam Kumar  
+**Role:** Aspiring Data Analyst  
+**Tools:** MySQL 8.0, SQL  
+**Project Type:** SQL Portfolio Project
 
 ## Project Overview
 
