@@ -1,7 +1,9 @@
 # Retail Performance Diagnosis and Revenue Optimization
 
-**Author:** Shivam Kumar
-**Project Type:** SQL Portfolio Project
+Author: Shivam Kumar
+Role: Aspiring Data Analyst
+Tools: MySQL 8.0, SQL
+Project Type: SQL Portfolio Project
 
 ## Project Overview
 
@@ -10,6 +12,21 @@ An advanced SQL case study focused on diagnosing store performance, detecting an
 ## Project Objective
 
 Evaluate store-level performance differences, revenue concentration, operational productivity, and demand stability in order to support better retail optimization decisions.
+
+## Dataset
+
+This project uses the **Store Sales Time Series Forecasting dataset**.
+
+- Source: https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data
+- Files used:
+  - train.csv
+  - test.csv
+  - stores.csv
+  - transactions.csv
+  - oil.csv
+  - holidays_events.csv
+
+Note: Dataset is not included in this repository due to size constraints.
 
 ## Business Questions Answered
 
@@ -37,23 +54,28 @@ Evaluate store-level performance differences, revenue concentration, operational
 ## Files Included
 
 - `analysis.sql` - main retail performance case study queries
-- `data/` - source CSV files used in the case study
+- Dataset is externally hosted (see Dataset section)
 
 ## SQL Skills Demonstrated
 
-- store performance diagnosis
-- outlier detection
-- variance analysis
-- Pareto analysis
-- operational efficiency analysis
-- business KPI design
+- Complex JOIN operations across multiple tables
+- Window functions for ranking and distribution analysis
+- Aggregation and group-based performance comparison
+- Outlier detection using statistical thresholds
+- Pareto analysis (80/20 revenue distribution)
 
 ## Why This Project Matters
 
 This project demonstrates business-focused SQL analysis by connecting raw relational data to decisions, commercial insights, and actionable recommendations.
 
+## Data Setup
+
+- Import CSV files into MySQL using `LOAD DATA INFILE` or GUI tools like MySQL Workbench.
+- Ensure correct data types (dates, numeric fields) before running analysis.
+
 ## How To Use
 
-1. Review `schema.sql` where available to understand the data model.
-2. Explore `data/` to understand the raw source files used in the project.
-3. Run `analysis.sql` section by section to reproduce the analysis and insights.
+1. Download the dataset from the link provided in the Dataset section.
+2. Create a local folder named `data/` and place all CSV files inside it.
+3. Import the CSV files into MySQL (or your preferred SQL environment).
+4. Run `analysis.sql` step by step to reproduce the analysis and insights.
